@@ -16,10 +16,10 @@
   #contact-title li:nth-child(1) {
     font-family: avenir;
     color: #255;
-    width: 80%;
+    width: 70%;
     text-align: left;
     font-size: 0.9em;
-    padding: 18px auto;
+    padding: 18px;
     padding-top: 10px;
   }
   #contact-title li:nth-child(2) {
@@ -29,30 +29,42 @@
     font-family: futura;
     color: #455;
     padding-top: 22px;
-    flex-grow: 2;
   }
+  .formtext:nth-child(5) input {
+    height: 38px;
+    font-size: 1em;
+    cursor: pointer; 
+    text-transform: uppercase;
+    color: #344;
+    font-family: futura;
+  }
+  .formtext:nth-child(5) input:hover {
+    color: #263534;
+    text-transform: none;
+    letter-spacing: 0.1em;
+    font-family: futura;
+  }
+
 form {
-  /*background-color: orange;*/
   display: flex;
   width: 60%;
   flex-direction: column;
-  justify-content: center;
   margin: 0 auto;
   margin-top: 10px;
 }
 input {
   width: 190px;
   padding-top: 6px;
-  align-self: flex-end;
+  justify-content: center;
 }
 textarea {
   display: block;
   width: 194px;
   height: 140px;
-  align-self: flex-end;
   color: #344;
 }
 .formtext {
+  width: 100%;
   display: block; 
   font-family: helvetica;
   font-size: 0.9em;
@@ -328,6 +340,70 @@ text-decoration: none;
 
 
 @media (min-width: 768px) and (max-width: 960px){
+
+   /*     form    */
+  #form {
+  display: block;
+  float: right;
+  width: 44.66%;
+  margin-right: 110px;
+  }
+  #contact-title {
+  }
+  #contact-title ul {
+  list-style: none;
+  }
+  #contact-title li:nth-child(1) {
+    display: block;
+    float: right;
+    text-align: center;
+    font-family: avenir;
+    color: #255;
+    width: 70%;
+    margin-right: 110px;
+    text-align: left;
+    font-size: 0.9em;
+  }
+  #contact-title li:nth-child(2) {
+    width: 100%;
+    text-align: center;
+    display: block;
+    float: right;
+    padding-right: 50px;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: futura;
+    color: #455;
+  }
+form {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+input {
+  width: 190px;
+  padding-top: 6px;
+  justify-content: center;
+}
+textarea {
+  display: block;
+  width: 194px;
+  height: 140px;
+  color: #344;
+}
+.formtext {
+  width: 100%;
+  display: block; 
+  font-family: helvetica;
+  font-size: 0.9em;
+  color: #344;
+  padding: 8px 4px 8px 4px; 
+  margin-top: 10px;
+}
+
+
+/*     form End   */
 
   #nav1 {
     display: none;
