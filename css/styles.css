@@ -1,10 +1,71 @@
 
  @media (min-width: 155px) {
 
+  /*     form    */
+  #contact-title {
+  display: flex;
+  width: 80.66%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  }
+  #contact-title ul {
+    list-style: none;
+  }
+  #contact-title li:nth-child(1) {
+    font-family: avenir;
+    color: #255;
+    width: 80%;
+    text-align: left;
+    font-size: 0.9em;
+    padding: 18px auto;
+    padding-top: 10px;
+  }
+  #contact-title li:nth-child(2) {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: futura;
+    color: #455;
+    padding-top: 22px;
+    flex-grow: 2;
+  }
+form {
+  /*background-color: orange;*/
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+input {
+  width: 190px;
+  padding-top: 6px;
+  align-self: flex-end;
+}
+textarea {
+  display: block;
+  width: 194px;
+  height: 140px;
+  align-self: flex-end;
+  color: #344;
+}
+.formtext {
+  display: block; 
+  font-family: helvetica;
+  font-size: 0.9em;
+  color: #344;
+  padding: 8px 4px 8px 4px; 
+  margin-top: 10px;
+}
+
+
+/*     form End   */
 
 /*dropdown menu*/
-#header
-{
+#header {
   display: flex;
   justify-content: center;
   background-color: #707070;
@@ -58,15 +119,15 @@ text-decoration: none;
     main {
     height: 100%;
     width: 100vw;
-    display: -webkit-box-flex;
-    display: -webkit-flex;
-    display: -mox-box;
-    display: -ms-flexbox;
+    /*display: -webkit-box;*/
+    /*display: -webkit-flex;*/
+    /*display: -moz-box;*/
+    /*display: -ms-flexbox;*/
     display: flex;
-    flex-flow: -webkit-box-flex;
+   /* flex-flow: -webkit-box-flex;
     flex-flow: -webkit-flex;
-    flex-flow: -mox-box;
-    flex-flow: -ms-flexbox;
+    flex-flow: -moz-box;
+    flex-flow: -ms-flexbox;*/
     flex-flow: row;
     justify-content: center;  
     -webkit-justify-content: center;
@@ -117,10 +178,10 @@ text-decoration: none;
     margin: 0; 
     padding: 0;*/
     /*background: #344; */
-    display: -webkit-box-flex;
+   /* display: -webkit-box-flex;
     display: -webkit-flex;
     display: -mox-box;
-    display: -ms-flexbox;
+    display: -ms-flexbox;*/
     display: flex;
     width: 100vw;
     display: flex;
