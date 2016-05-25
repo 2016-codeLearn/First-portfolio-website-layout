@@ -1,0 +1,368 @@
+
+/** {
+	Portal css start
+}*/
+
+body { 
+	background-image: url(../img/480.png);
+	background-repeat: no-repeat;
+	background-position: inherit;
+	background-size: cover;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -9000;
+}
+
+
+.parent {
+
+	height: 100%;
+}
+
+.item {
+	font-family: futura;
+	/*background-color: green;*/
+	text-align: center;
+	font-weight: 300;
+
+}
+.parent {
+	display: flex;
+	flex-direction: column;
+
+}
+.item {
+	padding: 10px 0;
+	width: 100%;
+	height: 100px;
+}
+.item:nth-child(1) {
+	margin-top: 42px;
+	font-size: 10pt;
+	color: #0cbbe1;
+	
+}
+.item:nth-child(2) {
+	margin-top: -30px;
+	line-height: 36px;
+	font-size: 12pt;
+	color: #0cbbe1;
+}
+.item:nth-child(3) {
+	margin-top: -58px;
+	line-height: 16pt;
+	font-size: 9pt;
+	color: #777787;
+	text-transform: lowercase;
+
+}
+.item:nth-child(4) {
+	margin-top: 30px;
+}
+
+
+body span {
+	text-transform: normal;
+	font-family: Khmer Sangam MN;
+	font-weight: lighter;
+}
+body a{
+	margin-top: 12px;
+	text-decoration: none;
+	border: 1px solid #777787;
+	border-radius: 3px;
+	padding: 13px;
+	color: #0cbbe1;
+}
+
+/*-------------------products.html------------*/
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 480px){
+
+body {
+	background-image: url(../img/480.png);
+	background-repeat: no-repeat;
+
+	background-position: inherit;
+	background-size: cover;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -9000;
+}
+
+	.item {
+		/*background-color: green;*/
+		text-align: center;
+		line-height: 60px;
+		font-weight: 400;
+
+	}
+	.item {
+		padding: 10px 0;
+		width: 100%;
+		height: 100px;
+	}
+	.item:nth-child(1) {
+		margin-top: 30px;
+		font-size: 18pt;
+		
+	}
+	.item:nth-child(2) {
+		font-size: 17pt;
+		color: red;
+	}
+	.item:nth-child(3) {
+		font-size: 12pt;
+		letter-spacing: 0.4pt;
+		margin-top: -12px;
+		line-height: 16pt;
+	}
+	.item:nth-child(4) {
+		margin-top: 30px;
+	}
+
+
+	body span {
+		text-transform: normal;
+		font-weight: lighter;
+	}
+	body a{
+		text-decoration: none;
+		border: 1px solid #97cbd4;
+		border-radius: 3px;
+		padding: 13px;
+	}
+
+									/*_________products.html________*/
+
+/*#nav-box {
+	background-color: green;
+	width: 80%;
+	
+	}
+	.nav {
+		display: flex;
+		justify-content: flex-end;
+		font-size: 9pt;
+	}
+*/
+}
+
+@media all and (min-width: 960px){
+
+body {
+	background-image: url(../img/1920.png);
+	background-repeat: no-repeat;
+	background-position: inherit;
+	background-size: cover;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -9000;
+
+
+}
+
+	.item {
+		/*background-color: green;*/
+		text-align: center;
+		line-height: 30px;
+		font-weight: 500;
+
+	}
+	.item {
+		
+		width: 100%;
+		height: 100px;
+	}
+	.item:nth-child(1) {
+		margin-top: 68px;
+		font-size: 18pt;
+		
+	}
+	.item:nth-child(2) {
+		padding-top: -10px;
+		font-size: 21pt;
+		color: red;
+	}
+	.item:nth-child(3) {
+		font-size: 12pt;
+		letter-spacing: 0.4pt;
+		margin-top: -12px;
+		line-height: 16pt;
+	}
+	.item:nth-child(4) {
+		margin-top: 30px;
+	}
+
+
+	body span {
+		text-transform: normal;
+		font-weight: lighter;
+	}
+	body a{
+		text-decoration: none;
+		border: 1px solid #97cbd4;
+		border-radius: 3px;
+		padding: 13px;
+	}
+
+}
+
+
+
+/** {
+	Portal css end
+}*/
+
+
+img {
+	max-width: 100%;
+}
+.container {
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+}
+
+.graphic {
+/*Ω*/
+}
+
+
+@media(min-width: 768px) {
+
+
+	main {
+		/*background-color: green;*/
+		width: 80%;
+		margin: 0 auto;
+		height: 100vh;
+		overflow: scroll;
+
+		
+	}
+
+	.scroll {
+		display: flex;
+		overflow: scroll;
+	
+	}
+	.container {
+	/*	border: 1px solid lightcoral;*/
+		flex-direction: flex-end;
+		width: 100%;
+		height: 400px;
+	}
+	.paragraph {
+		justify-content: center;
+		padding-top: 6px;
+		padding-left: 36px;
+		padding-right: 30px;
+	}
+	.title {
+		top: 0;
+		text-transform: uppercase;
+		font-family: helvetica;
+		color: #4f4f48;
+	}
+	.link {
+		padding-top: 10px;
+		width: 100%;
+	}
+
+	.link a {
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: futura;
+		color: #0f6f83;
+		font-size: 9.5pt;
+		margin-left: 10px;
+
+	}
+	.graphic {
+		display: flex;
+		flex-direction: column;
+	}
+	.paragraph b {
+		font-family: giddy up;
+		font-size: 36pt;
+	}
+	.link img {
+		justify-content: flex-start;
+		width: 100%;
+	}
+
+
+}
+
+
+
+
+
+/**---------------largest Dispay Devices starts----------*/
+
+@media(min-width: 1244px) {
+
+	main {
+		/*background-color: green;*/
+		width: 50%;
+		margin: 0 auto;
+		height: 100vh;
+		overflow: hidden;	
+	}
+	.scroll {
+		display: flex;
+		overflow: hidden;
+
+	}
+	.container {
+		padding-top: 40px;
+		border-top: 1px solid #0b849a;
+		max-width: 100%;
+		height: 940px;
+		flex-wrap: wrap;
+		align-content: space-around;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.graphic {
+		margin-bottom: 20px;
+	}
+	.link {
+		padding-top: 10px;
+		width: 86%;	
+	}
+	.graphic a {
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: futura;
+		color: #666662;
+		font-size: 9.5pt;
+		letter-spacing: 2pt;
+	}
+	.label {
+		margin-left: 100px;
+	}
+
+}
+
