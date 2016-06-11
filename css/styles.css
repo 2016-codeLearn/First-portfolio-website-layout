@@ -6,15 +6,34 @@ body{
   width: 100vw;
   height: auto;
 }
-
-#myCanvas {
-  position: absolute;
-  left: 20px;
-  width: calc(17% - 80px);
-  bottom: calc(100% - 281px);
-  padding: 5px;
-  border: none;
+#box-canvas {
+  min-width: 320px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
 }
+#box-canvas1 {
+  min-width: 320px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+/*#myCanvas {
+  top: 0px;
+  left: 140px;
+  bottom: calc(100% - 600px);
+  padding: 5px;
+  margin: 0 auto;
+  content: '';
+  display: block;
+  clear: both;
+}*/
+
+
 
 /*Video_page*/
 
@@ -250,32 +269,34 @@ body{
  
   main {
   background-image: url("../img/900.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
   }
   #projects { 
-  margin-top: 0;
+  margin-top: 20;
   display: flex;
   flex-direction: column;
   height: auto;
   margin: 0 auto;
-  padding-bottom: 15%;
+  padding-bottom: 38px;
   width: 320px;
   }
   .img-box {
   max-width: 66.66%; 
-  background-color: rgba(36,45,59,0.39);
+  background-color: rgba(36,45,59,0.19);
   border: 1px solid #D5DEDE;
   border-radius: 3px;
-  box-shadow: 0 0 8px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
   margin: 0 auto;
   margin-top: 30px;
   }
   .img-box:hover {
   border: 1px solid rgba(0,0,0,0.07);
-  background-color:  #f76806;
-  box-shadow: 0 0 8px 0 rgba(247,104,06,.8);
+  background-color:  #e87915;;
+  box-shadow: 0 0 3px 0 rgba(247,104,06,.4);
   }
  
   #projects div img { 
@@ -285,14 +306,15 @@ body{
   display: block;
   text-align: center;
   width: auto;
+  font-size: 0.84em;
+  font-weight: bold;
   line-height: 3em;
   letter-spacing: 0.11em;
   font-family: arial;
   text-transform: uppercase;
-  color: #261307;
-  text-shadow: 1px 2px 0px rgba(0,0,0,0.1), 3px 3px 0px rgba(0,0,0,0.03);
-  font-size: 0.66em;
-  background-color: rgba(18, 32, 39, 0.5.3);
+  color: #fff;
+  text-shadow: 1px 2px 0px rgba(0,0,0,0.1), 3px 3px 0px rgba(0,0,0,0.09);
+  background-color: rgba(18, 32, 39, 53, 0.5);
   }
   #projects div a {
   text-decoration: none;
@@ -392,7 +414,7 @@ body{
 
   #projects {
   display: flex; 
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 40px;
   margin: 0 auto;
   flex-flow: wrap;
@@ -417,6 +439,23 @@ body{
 /*mmmmmmmmmmmmmmmmmmmmmmmmmmmmxxxxxxxxxxxxxxxxxxxxxxmxmmmxmmmmmmmmmmxxxxxxxxxxxxxxxmxm*/
 
 @media (min-width: 768px) {
+
+  #box-canvas {
+  width: 100vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#box-canvas1 {
+  width: 100vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
 
 
   #ohk {
@@ -486,15 +525,15 @@ body{
     border: none;
     color: #fff;
   }
-
+/*
   main {
   display: flex;
   width: 100vw;
   margin: 0 auto;
-  margin-bottom: 40px;
-  }
+  height: auto;
+  }*/
   #projects{
-  margin-top: 45px;
+  padding-top: 30px;
   min-width: 700px;
   flex-direction: row;
   justify-content: flex-start;
@@ -504,13 +543,6 @@ body{
     width: 31%;
     margin: 6px;
     margin-bottom: 42px;
-  }
-  .title {
-    font-size: 0.84em;
-    font-weight: bold;
-  }
-  .title a:hover {
-    color: black;
   }
   .media-icons a {
   display: block;
@@ -553,7 +585,6 @@ body{
   }
 
   #projects{
-  padding-top: 50px;
   width: 750px;
   flex-direction: row;
   justify-content: flex-start;
@@ -590,7 +621,6 @@ body{
     max-width: 31%;
   }
   #projects {
-    padding-top: 90px;
     min-width: 860px;
     margin: 0 auto;
   }
