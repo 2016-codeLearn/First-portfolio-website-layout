@@ -190,7 +190,6 @@ ctx.fillText("OMPHALUS.H.KUA",-1,90);
 ctx.arc(50,38,30,0,2*Math.PI);
 
 
-
 ctx.stroke();
 
 
